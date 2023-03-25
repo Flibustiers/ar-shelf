@@ -25,7 +25,7 @@ extern void* javaVM;
 namespace
 {
 // clang-format off
-constexpr char licenseKey[] = "";
+constexpr char licenseKey[] = "AQx8IpT/////AAABmQoXcYtPDElerT3A6AVmf2cliQXz7r5x9Ail2hZI8dmdnjTf0Tb7V23Jp4Vx8tER/MgRf+TWaxEu4ny2NZAYEoi+m69wu8tJHbm6IK54koOAZs5ICt82dVv9+yUuGFlNFYd3F9M2H7UoOrGVK7MOXoTz1BbueZU3UEk+tZgsX3qwHfSdSLTAg26vqsyCGAKck/ouSHpFNIKNX/qLWq2QPSD+MdKUw7SHDyOt4ZTdePL2iATp6AX7I1Up0fBeoLmy+DWkGaXC7ewbHhcFSNL7SlNnwHre0V4BXwjAo9o43SVCxJ246+yLWJrgUggpOHqci3Xi56GGZAqJjrnVgTo9oZm88VDpAGYo10F5UBqPemYW";
 // clang-format on
 
 constexpr float NEAR_PLANE = 0.01f;
@@ -831,8 +831,8 @@ AppController::createObservers()
     if (mTarget == IMAGE_TARGET_ID)
     {
         auto imageTargetConfig = vuImageTargetConfigDefault();
-        imageTargetConfig.databasePath = "StonesAndChips.xml";
-        imageTargetConfig.targetName = "stones";
+        imageTargetConfig.databasePath = "HackathonApp.xml";
+        imageTargetConfig.targetName = "markerB";
         imageTargetConfig.activate = VU_TRUE;
 
         VuImageTargetCreationError imageTargetCreationError;
