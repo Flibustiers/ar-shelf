@@ -4,7 +4,7 @@
     <string name="splash_screen_description">Splash screen</string>
     <string name="splash_screen_logo">Vuforia Logo</string>
 
-    <string name="main_image_target_label">Image Target</string>
+    <string name="main_image_target_label">Serch place of Box</string>
     <string name="main_model_target_label">Model Target</string>
 
     <string name="title_activity_vuforia">Vuforia Augmented Reality</string>
