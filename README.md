@@ -1,6 +1,6 @@
 # AR-shelf app for android
 ### Скачиваем из [`./releases`](https://github.com/Flibustiers/ar-shelf/releases/)
-[`origin/master`](origin/master)
+
 
 
 - [X] https://github.com/Flibustiers/ar-shelf/issues/1
