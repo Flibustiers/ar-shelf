@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="markerC" size="0.200000 0.200000" />
-    <ImageTarget name="marker1" size="0.200000 0.200000" />
-    <ImageTarget name="marker3" size="0.200000 0.200000" />
-    <ImageTarget name="marker2" size="0.200000 0.200000" />
-    <ImageTarget name="markerB" size="0.200000 0.200000" />
     <ImageTarget name="markerA" size="0.200000 0.200000" />
+    <ImageTarget name="marker2" size="0.200000 0.200000" />
+    <ImageTarget name="marker1" size="0.200000 0.200000" />
+    <ImageTarget name="markerC" size="0.200000 0.200000" />
+    <ImageTarget name="marker3" size="0.200000 0.200000" />
+    <ImageTarget name="markerB" size="0.200000 0.200000" />
   </Tracking>
 </QCARConfig>
