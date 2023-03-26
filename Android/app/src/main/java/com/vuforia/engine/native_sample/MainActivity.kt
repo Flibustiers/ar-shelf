@@ -26,12 +26,6 @@ class MainActivity : AppCompatActivity() {
 
 
     fun goToActivity(view: View) {
-        if (view.id == btn_image_target.id || view.id == btn_model_target.id) {
-
-            val intent = Intent(
-                this@MainActivity,
-                VuforiaActivity::class.java
-            )
             if (view.id == btn_image_target.id) {
                 intent.putExtra("Target", VuforiaActivity.getImageTargetId())
             } else {
@@ -39,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             startActivity(intent)
-        }
+
     }
 
 
